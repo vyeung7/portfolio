@@ -1,2 +1,94 @@
-# portfolio
-portfolio
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Home </title>
+	<meta name="viewport" content="width=device-width, initial-scale="1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="Index.html">Home</a></li>
+			<li><a href="portfolio.html">Portfolio</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+<center>
+<h1>Welcome!</h1> 
+<div class="parent">
+	<img src="images/me.jpg" height="550" width="400" alt="photo of me"/>
+	<div class="text-box">
+		<p> Hello everyone! My name is Vivian, I am a 19yr 
+			</br>
+			old college student who has a passion for creating
+			</br>
+			any type of digital media content. I enjoy editing
+			</br>
+			whether it be of photos or good ole' fashion home
+			</br>
+			videos that showcase little bits and pieces of my
+			</br>
+			life. Being able to capture those visions or experiences
+			</br>
+			is something that I always look forward to in the
+			</br>
+			process of making a story flow. As in my story, where
+			</br>
+			I decide the point of view. I look forward to communicating
+			</br>
+			my ideas and branching out to gain more knowledge to
+			</br>
+			learn more on what I can adjust and strive to do better.
+			</br>
+			I have listed below some artists I've gain
+			</br>
+			inspiration from and greatly admire. 
+		</p>
+	</div>
+</div>
+</center>
+<div class="image-grid">
+	<a href="http://www.jamesjean.com/">
+	<img class="inspo" src="images/jean1.jpeg" height="450" width="470" alt="image"></a>
+	<a href="http://www.wongkarwai.net/">
+	<img class="inspo" src="images/WONG.png" height="350" width="470" alt="Image"></a>
+	<a href="https://gagosian.com/artists/takashi-murakami/">
+	<img class="inspo" src="images/flower2.jpg" height="450" width="470" alt="Image"></a>
+</div>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+<div class="grid-container">
+	<div class="grid-item">
+		<div class="item1">
+		James Jean is a taiwanese American visual artist who 
+		primarily works in painting and drawing.
+		I have been following him on instagram ever since 
+		i first saw his work. He creates such mesmerizing
+		and ethereal masterpieces that are so pleasing to the 
+		human eye.
+		</div>
+	</br>
+		<div class="item2">
+		Wong Kar Wai is a Hong Kong film director most notably known for his outlook on films involving non linear narratives,
+		atmospheric music, and vivid cinematography of saturated colors. I grew up watching his films as it connects to my
+		Chinese heritage surrounding Hong Kong culture.
+		</div>
+	</br>
+		<div class="item3">
+  		Takashi Murakami is a Japanese contemporary artist. Known for his expressive color palette and unique aesthetic.
+ 		I really love his artwork, especially his best known piece of the colorful flowers have always made me appreciate abstract art.
+		</div>
+	</div>
+</div>	
+	
+
+</body>
+</html>
+
