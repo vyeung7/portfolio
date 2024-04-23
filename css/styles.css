@@ -1,0 +1,59 @@
+@media screen and (min-width: 500px){
+
+
+    body{
+        top:0;
+        bottom:0;
+        right:0;
+        left:0;
+        font-family: sans-serif;
+        background-color:#F2F2F2;
+        color: black;
+    }
+    
+    .img1{
+        position: relative;
+        margin-top: 4%;
+        margin-left: 15%;
+        height: 400px;
+        width: 300px;
+    }
+   
+     /* green about box*/
+     h1{
+        font-size: 75px;
+     }
+     .greenbox{
+        float: right;
+        text-align: center;
+        margin-top: 2%;
+        width: 900px;
+        height: 500px;
+        color: #989D87;
+        background-color:#CDD1CB;
+        border: 20px solid #CDD1CB;
+    }
+    .text-box{
+        margin: 50px;
+        padding: 20px;
+        position: relative;
+        margin-top:6%;
+        color:black;
+        text-align: justify;
+      }
+    
+    .skill{
+        position: relative;
+        margin: 15%;
+    }
+    .year{
+        font-style: italic;
+    }
+    .school{
+        color: rosybrown;
+    }
+    h2{
+        text-decoration: underline;
+        text-decoration-color:#989D87;
+    }
+}
