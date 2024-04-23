@@ -56,4 +56,8 @@
         text-decoration: underline;
         text-decoration-color:#989D87;
     }
+    /*contact page*/
+    .container{
+        text-align: center;
+    }
 }
