@@ -60,4 +60,16 @@
     .container{
         text-align: center;
     }
+
+    .projects{
+        text-align: center;
+    }
+
+    .textbox2{
+        margin-right: 15%;
+        margin-left: 15%;
+        padding: 10px;
+        position: relative;
+        text-align: justify;
+    }
 }
