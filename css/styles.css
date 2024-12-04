@@ -17,13 +17,27 @@
         margin-left: 15%;
         height: 400px;
         width: 300px;
+        border-radius: 12px;
+    }
+     
+    /*@font-face {
+        font-family: "customFont";
+        src: url("konstantgrotesk.otf");
+    }*/
+
+    .navbar-nav{
+        margin-left: auto;
+        /*font-family: "customFont";*/
+        
+
     }
    
      /* green about box*/
      h1{
         font-size: 75px;
-     }
-     .greenbox{
+    
+    }
+     .aboutgreenbox{
         float: right;
         text-align: center;
         margin-top: 2%;
@@ -32,6 +46,7 @@
         color: #989D87;
         background-color:#CDD1CB;
         border: 20px solid #CDD1CB;
+        border-radius: 12px;
     }
     .text-box{
         margin: 50px;
@@ -41,7 +56,93 @@
         color:black;
         text-align: justify;
       }
-    
+      .resumegreenbox{
+        float: left;
+        text-align: center;
+        margin-top: 8%;
+        margin-bottom: 8%;
+        width: 650px;
+        height: 830px;
+        color: #CDD1CB;
+        background-color:#CDD1CB;
+        border: 20px solid #CDD1CB;
+        border-radius: 12px;
+
+      }
+    /* resume */
+    .imgPaper{
+        position: left;
+        margin-top: auto;
+        margin-left: auto;
+    }
+    /* bouncing arrows*/
+    .arrows {
+        width: 60px;
+        height: 72px;
+        position: absolute;
+        left: 70%;
+        margin-left: -30px;
+        bottom: 20px;
+      }
+      
+      .arrows path {
+        stroke: #989D87;
+        fill: transparent;
+        stroke-width: 1px;  
+        animation: arrow 2s infinite;
+        -webkit-animation: arrow 2s infinite; 
+      }
+      
+      @keyframes arrow
+      {
+      0% {opacity:0}
+      40% {opacity:1}
+      80% {opacity:0}
+      100% {opacity:0}
+      }
+      
+      @-webkit-keyframes arrow /*Safari and Chrome*/
+      {
+      0% {opacity:0}
+      40% {opacity:1}
+      80% {opacity:0}
+      100% {opacity:0}
+      }
+      
+      .arrows path.a1 {
+        animation-delay:-1s;
+        -webkit-animation-delay:-1s; /* Safari 和 Chrome */
+      }
+      
+      .arrows path.a2 {
+        animation-delay:-0.5s;
+        -webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+      }
+      
+      .arrows path.a3 { 
+        animation-delay:0s;
+        -webkit-animation-delay:0s; /* Safari 和 Chrome */
+      }
+      
+      
+            
+    .button{
+        position: right;
+        margin-top: 40%;
+        margin-left: 65%;
+        margin-right: 20%;
+        background-color: #CDD1CB; 
+        border: auto solid #CDD1CB;
+        border-radius: 12px;
+        
+    }
+    /*text*/
+    .btn{
+        font-size: xx-large;
+        color:#989D87;
+    }
+
+
     .skill{
         position: relative;
         margin: 15%;
