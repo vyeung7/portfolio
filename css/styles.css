@@ -50,7 +50,7 @@
         margin-top: 2%;
         width: 900px;
         height: 500px;
-        color: #989D87;
+        color: #78486d;
         background-color:#CDD1CB;
         border: 20px solid #CDD1CB;
         border-radius: 12px;
@@ -156,8 +156,12 @@
         display: flex;
 
       }*/
-
-      
+      h1{
+        color:#78486d;
+      }
+      h2{
+        color: #78486d;
+      }
             
     .button{
         position: relative;
@@ -182,12 +186,12 @@
     /*button styling*/
     .click{
         border-color: #CDD1CB;
-        color: #989D87;
+        color: #78486d;
     }
 
     .click:hover {
         background-color: #CDD1CB;
-        color: #989D87;
+        color: #78486d;
     }
 
     .txtbox{
@@ -208,14 +212,11 @@
       margin-left: 80%;
       margin-top: 65%;
       padding-left: 8%;
-      color:#989D87;
+      color:#78486d;
     }
 
     /*projects page underlines*/
-    h2{
-        text-decoration: underline;
-        text-decoration-color:#989D87;
-    }
+  
 
     /*contact page*/
     .container{
